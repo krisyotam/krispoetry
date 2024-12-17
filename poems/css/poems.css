@@ -1,0 +1,90 @@
+/* General Body Styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 42rem;
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: #fff; /* White background for minimalism */
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Poem Meta Information (type, year, etc.) */
+.poem-meta {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* Poem Content */
+.poem-content {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #333;
+    white-space: pre-wrap; /* Preserve line breaks in poem */
+    margin: 0;
+}
+
+/* Minimalist spacing */
+section {
+    margin-bottom: 3rem;
+}
+
+/* Links */
+a {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+}
+
+/* Centering */
+.center {
+    text-align: center;
+}
+
+/* Back Button Styling */
+.back-button {
+    position: fixed; /* Fixed to the bottom left */
+    bottom: 2rem; /* Distance from the bottom */
+    left: 2rem; /* Distance from the left */
+    padding: 0.5rem 1rem; /* Small padding for a subtle button */
+    background-color: transparent; /* No background to keep it subtle */
+    color: #0070f3; /* Blue text for the link */
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+    transition: color 0.3s, opacity 0.3s;
+    opacity: 0.7; /* Slight transparency for a minimalist feel */
+}
+
+.back-button:hover {
+    color: #005bb5; /* Darker blue on hover */
+    opacity: 1; /* Fully opaque on hover */
+}
+
+.back-button:focus {
+    outline: none; /* Remove focus outline */
+}

@@ -1,0 +1,123 @@
+/* Body styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* System fonts for better performance */
+    line-height: 1.5; /* Spacing between lines of text */
+    color: #333; /* Dark text color for readability */
+    max-width: 42rem; /* Limit the width of the page */
+    padding: 2rem; /* Add padding around the content */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+/* Header styles */
+header {
+    text-align: center; /* Center the text */
+    margin-bottom: 2rem; /* Space below the header */
+}
+
+/* Avatar styling */
+.avatar {
+    width: 120px; /* Set a larger width */
+    height: 120px; /* Set a larger height */
+    border-radius: 15px; /* Add rounded corners (not fully circular) */
+    background-color: #333; /* Dark background to fit the minimalistic style */
+    color: white; /* White text color */
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    font-weight: bold; /* Make text bold */
+    margin: 0 auto 1rem; /* Center horizontally and add space below */
+    overflow: hidden; /* Ensure the image fits inside the container with rounded corners */
+}
+
+/* Avatar image styling */
+.avatar-img {
+    width: 100%; /* Make the image fill the avatar */
+    height: 100%; /* Make the image fill the avatar */
+    object-fit: cover; /* Crop the image to fill the container while preserving its aspect ratio */
+}
+
+/* Main heading styling */
+h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.25rem; /* Set font size */
+    font-weight: 500; /* Set font weight */
+}
+
+/* Tagline styling */
+.tagline {
+    color: #666; /* Lighter color for the tagline */
+    margin: 0; /* Remove default margin */
+}
+
+/* Navigation styles */
+nav {
+    margin-bottom: 2rem; /* Space below the navigation */
+}
+
+.navbar {
+    z-index: 99; /* Ensure navbar is on top */
+}
+
+/* Navigation list styling */
+nav ul {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the list items */
+    gap: 1.5rem; /* Space between items */
+}
+
+/* Navigation link styles */
+nav a {
+    color: #666; /* Lighter color for the links */
+    text-decoration: none; /* Remove underline */
+    font-size: 0.875rem; /* Set font size */
+    pointer-events: auto;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    color: #444; /* Slightly darker gray for a more subtle hover effect */
+}
+
+/* Poem list styling */
+.poem-list {
+    display: grid; /* Use grid layout */
+    gap: 2rem; /* Space between poems */
+}
+
+/* Poem block styling */
+.poem {
+    display: block; /* Make the poem a block element */
+    text-decoration: none; /* Remove text decoration */
+    color: inherit; /* Inherit the text color */
+}
+
+/* Hover effect for poem titles */
+.poem:hover h2 {
+    color: #555; /* A soft dark gray that blends well with the design */
+}
+
+/* Poem title styling */
+.poem h2 {
+    margin: 0 0 0.25rem; /* Remove margin and add space below */
+    font-size: 1.125rem; /* Set font size */
+    font-weight: 500; /* Set font weight */
+}
+
+/* Poem metadata styling */
+.poem-meta {
+    font-size: 0.875rem; /* Set font size */
+    color: #666; /* Light color for metadata */
+}
+
+/* Poem metadata type link styling */
+.poem-meta a {
+    color: #666; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Poem metadata type link hover effect */
+.poem-meta a:hover {
+    color: #444; /* Darker color on hover */
+}

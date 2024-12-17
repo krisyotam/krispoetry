@@ -1,0 +1,58 @@
+[
+    {
+        "type": "Sonnet",
+        "name": "Whispers of Dawn",
+        "date": "2024",
+        "poem_link": "/poems/html/demopoem.html",
+        "type_link": "/pages/html/sonnet.html"
+    },
+    {
+        "type": "Free Verse",
+        "name": "Autumn's Embrace",
+        "date": "2024",
+        "poem_link": "#",
+        "type_link": "/pages/html/free-verse.html"
+    },
+    {
+        "type": "Haiku",
+        "name": "Moonlit Reverie",
+        "date": "2024",
+        "poem_link": "#",
+        "type_link": "/pages/html/haiku.html"
+    },
+    {
+        "type": "Epic Poetry",
+        "name": "Urban Symphony",
+        "date": "2020",
+        "poem_link": "#",
+        "type_link": "/pages/html/epic-poetry.html"
+    },
+    {
+        "type": "Blank Verse",
+        "name": "Echoes of Time",
+        "date": "2024",
+        "poem_link": "#",
+        "type_link": "/pages/html/blank-verse.html"
+    },
+    {
+        "type": "Villanelle",
+        "name": "Winter's Lament",
+        "date": "2024",
+        "poem_link": "#",
+        "type_link": "/pages/html/villanelle.html"
+    },
+    {
+        "type": "Prose Poetry",
+        "name": "Desert Dreams",
+        "date": "2022",
+        "poem_link": "#",
+        "type_link": "/pages/html/prose-poetry.html"
+    },
+    {
+        "type": "Lyric Poetry",
+        "name": "Ocean's Memory",
+        "date": "2023",
+        "poem_link": "#",
+        "type_link": "/pages/html/lyric-poetry.html"
+    }
+]
