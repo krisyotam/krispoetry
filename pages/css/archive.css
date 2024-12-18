@@ -1,0 +1,138 @@
+/* archive.css */
+
+/* Style the year-flap container */
+.year-flap {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.year-flap h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Year hover effect */
+.year-flap h2:hover {
+    color: #333;  /* Removed blue and replaced with neutral color */
+}
+
+/* Initially hide the month-flap */
+.year-flap .month-flap {
+    display: none;
+}
+
+/* When expanded, show the content */
+.year-flap.expanded .month-flap {
+    display: block;
+}
+
+/* Style the month-flap */
+.month-flap {
+    margin-left: 20px;
+    border-left: 2px solid #ddd;
+    padding-left: 10px;
+}
+
+.month-flap h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+/* Month hover effect */
+.month-flap h3:hover {
+    color: #333;  /* Removed blue and replaced with neutral color */
+}
+
+/* Initially hide the poems under each month */
+.month-flap .poem-item {
+    display: none;
+}
+
+/* When expanded, show the poems */
+.month-flap.expanded .poem-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Clean the layout of the poem information */
+.poem-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+/* Poem title, type, and date */
+.poem-item .poem-info {
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.poem-item .poem-info span {
+    font-size: 14px;
+    color: #777;  /* Default color */
+}
+
+.poem-item .poem-info .poem-type {
+    color: #333;
+    font-weight: bold;
+}
+
+.poem-item .poem-info .poem-date {
+    font-size: 12px;
+    color: #555;
+}
+
+/* "Read Poem" link */
+.poem-item .read-poem-link {
+    font-size: 14px;
+    color: #007BFF; /* Blue color */
+    text-decoration: none; /* No underline by default */
+    display: inline-block; /* Ensure it behaves like a link */
+    padding-left: 10px; /* Add spacing between the poem info and the link */
+}
+
+/* "Read Poem" link hover effect */
+.poem-item .read-poem-link:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #0056b3; /* Darker blue for hover effect */
+}
+
+/* Add slight hover effect for poem items */
+.poem-item:hover {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Adjust spacing and alignment */
+.poem-item .read-poem {
+    margin-left: auto; /* Align 'Read Poem' link to the right */
+    padding-left: 10px;
+}
+
+/* Hover effects for year and month titles */
+.year-flap h2:hover, .month-flap h3:hover {
+    color: #333;  /* Removed blue and replaced with neutral color */
+}
+
+/* Apply faint filter effect on hover for poem info */
+.poem-item .poem-info span:hover {
+    color: #777; /* Slight change to a lighter grey */
+    filter: brightness(0.8); /* Make the text appear faded */
+    text-decoration: none; /* Ensure no underlining on hover */
+}

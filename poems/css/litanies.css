@@ -1,0 +1,26 @@
+/* Litanies Specific Styles */
+.poem-content {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    text-align: center;
+    font-family: "Georgia", serif; /* Serif for formal tone */
+    font-style: italic; /* Add emphasis on repetition */
+}
+
+.poem-meta {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.poem-content p {
+    margin-bottom: 1.5rem;
+}
+
+.poem-content p:first-child {
+    font-weight: bold;
+    color: #0070f3; /* Emphasize the first line with blue */
+}
+
+.poem-content p:last-child {
+    color: #f00; /* Red for the final line to create a dramatic effect */
+}

@@ -1,58 +1,155 @@
 [
     {
-        "type": "Sonnet",
-        "name": "Whispers of Dawn",
-        "date": "2024",
-        "poem_link": "/poems/html/demopoem.html",
-        "type_link": "/pages/html/sonnet.html"
-    },
-    {
-        "type": "Free Verse",
-        "name": "Autumn's Embrace",
-        "date": "2024",
-        "poem_link": "#",
-        "type_link": "/pages/html/free-verse.html"
-    },
-    {
+        "date_added": "2024-12-18",
         "type": "Haiku",
-        "name": "Moonlit Reverie",
+        "name": "Veil of Mist on the Moors",
         "date": "2024",
-        "poem_link": "#",
+        "exact_date": "2024-12-02",
+        "poem_link": "/poems/html/haiku15.html",
         "type_link": "/pages/html/haiku.html"
     },
     {
-        "type": "Epic Poetry",
-        "name": "Urban Symphony",
-        "date": "2020",
-        "poem_link": "#",
-        "type_link": "/pages/html/epic-poetry.html"
-    },
-    {
-        "type": "Blank Verse",
-        "name": "Echoes of Time",
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "Beneath the Weeping Willow",
         "date": "2024",
-        "poem_link": "#",
-        "type_link": "/pages/html/blank-verse.html"
+        "exact_date": "2024-12-02",
+        "poem_link": "/poems/html/haiku17.html",
+        "type_link": "/pages/html/haiku.html"
     },
     {
-        "type": "Villanelle",
-        "name": "Winter's Lament",
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "Eclipsed by the Mountain's Shadow",
         "date": "2024",
-        "poem_link": "#",
-        "type_link": "/pages/html/villanelle.html"
+        "exact_date": "2024-12-02",
+        "poem_link": "/poems/html/haiku18.html",
+        "type_link": "/pages/html/haiku.html"
     },
     {
-        "type": "Prose Poetry",
-        "name": "Desert Dreams",
-        "date": "2022",
-        "poem_link": "#",
-        "type_link": "/pages/html/prose-poetry.html"
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "The Tranquil Estate Garden",
+        "date": "2024",
+        "exact_date": "2024-12-03",
+        "poem_link": "/poems/html/haiku19.html",
+        "type_link": "/pages/html/haiku.html"
     },
     {
-        "type": "Lyric Poetry",
-        "name": "Ocean's Memory",
-        "date": "2023",
-        "poem_link": "#",
-        "type_link": "/pages/html/lyric-poetry.html"
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "A Meadow at Dawn",
+        "date": "2024",
+        "exact_date": "2024-12-03",
+        "poem_link": "/poems/html/haiku20.html",
+        "type_link": "/pages/html/haiku.html"
+    },
+    {
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "In the Heart of the Forest Grove",
+        "date": "2024",
+        "exact_date": "2024-12-03",
+        "poem_link": "/poems/html/haiku21.html",
+        "type_link": "/pages/html/haiku.html"
+    },
+    {
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "Chickadee's Lullaby",
+        "date": "2024",
+        "exact_date": "2024-12-03",
+        "poem_link": "/poems/html/haiku22.html",
+        "type_link": "/pages/html/haiku.html"
+    },
+    {
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "Quiet call of the woods",
+        "date": "2024",
+        "exact_date": "2024-12-03",
+        "poem_link": "/poems/html/haiku23.html",
+        "type_link": "/pages/html/haiku.html"
+    },
+    {
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "By the Marble Fountain",
+        "date": "2024",
+        "exact_date": "2024-12-03",
+        "poem_link": "/poems/html/haiku24.html",
+        "type_link": "/pages/html/haiku.html"
+    },
+    {
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "At the Edge of the Terrace",
+        "date": "2024",
+        "exact_date": "2024-12-04",
+        "poem_link": "/poems/html/haiku25.html",
+        "type_link": "/pages/html/haiku.html"
+    },
+    {
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "Upon the Estate",
+        "date": "2024",
+        "exact_date": "2024-12-05",
+        "poem_link": "/poems/html/haiku26.html",
+        "type_link": "/pages/html/haiku.html"
+    },
+    {
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "Along the Garden Pathway",
+        "date": "2024",
+        "exact_date": "2024-12-09",
+        "poem_link": "/poems/html/haiku27.html",
+        "type_link": "/pages/html/haiku.html"
+    },
+    {
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "Among the Laurel Trees",
+        "date": "2024",
+        "exact_date": "2024-12-09",
+        "poem_link": "/poems/html/haiku28.html",
+        "type_link": "/pages/html/haiku.html"
+    },
+    {
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "The Ships are moving",
+        "date": "2024",
+        "exact_date": "2024-12-09",
+        "poem_link": "/poems/html/haiku29.html",
+        "type_link": "/pages/html/haiku.html"
+    },
+    {
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "In the sea",
+        "date": "2024",
+        "exact_date": "2024-12-09",
+        "poem_link": "/poems/html/haiku30.html",
+        "type_link": "/pages/html/haiku.html"
+    },
+    {
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "This broken scale",
+        "date": "2024",
+        "exact_date": "2024-12-09",
+        "poem_link": "/poems/html/haiku31.html",
+        "type_link": "/pages/html/haiku.html"
+    },
+    {
+        "date_added": "2024-12-18",
+        "type": "Haiku",
+        "name": "Her Tears",
+        "date": "2024",
+        "exact_date": "2024-12-09",
+        "poem_link": "/poems/html/haiku32.html",
+        "type_link": "/pages/html/haiku.html"
     }
 ]

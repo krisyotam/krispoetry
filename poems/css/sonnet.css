@@ -1,0 +1,27 @@
+/* Sonnet Specific Styles */
+.poem-content {
+    font-style: italic; /* Italicize text for poetic emphasis */
+    text-align: center; /* Center the content */
+    margin-top: 2rem; /* Add space above the content */
+}
+
+.poem-meta {
+    font-size: 0.875rem; /* Set font size */
+    color: #666; /* Keep the same secondary color for metadata */
+}
+
+/* Sonnet Header */
+h1 {
+    color: #333; /* Use primary color for headers */
+    font-size: 2rem; /* Larger font size for titles */
+    font-weight: 700; /* Strong emphasis for the title */
+}
+
+h2 {
+    color: #666; /* Lighter color for subtitle */
+    font-size: 1.25rem; /* Set font size for the subtitle */
+}
+
+.poem-content p {
+    margin-bottom: 1.5rem; /* Space between lines in the poem */
+}

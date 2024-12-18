@@ -1,0 +1,23 @@
+/* Elegy Specific Styles */
+.poem-content {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    text-align: left;
+    font-family: "Times New Roman", serif;
+    font-style: italic; /* Softens the tone of the elegy */
+}
+
+.poem-meta {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.poem-content p {
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+.poem-content p:first-child {
+    font-weight: bold; /* Emphasize the first line */
+    font-style: normal; /* Remove italic from first line */
+}

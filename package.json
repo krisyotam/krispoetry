@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "change-case": "^3.0.0",
+    "marked": "^3.0.0"
+  }
+}

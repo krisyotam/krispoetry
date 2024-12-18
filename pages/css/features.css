@@ -1,0 +1,67 @@
+/* features.css */
+
+/* Style the general layout of the page */
+.features {
+    padding: 20px;
+}
+
+.feature-table {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+
+.feature-table h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Table layout and styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+    background-color: #f1f1f1; /* Permanent highlight on headers */
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td {
+    vertical-align: middle; /* Ensure consistent vertical alignment */
+}
+
+/* Ensure the categories above the tables are aligned */
+.feature-table h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

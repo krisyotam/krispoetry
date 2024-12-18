@@ -33,6 +33,7 @@ h2 {
     font-size: 1rem;
     color: #666;
     margin-bottom: 2rem;
+    text-decoration: none;
 }
 
 /* Poem Content */
@@ -87,4 +88,22 @@ a:hover {
 
 .back-button:focus {
     outline: none; /* Remove focus outline */
+}
+
+/* Poem Title Link Styling */
+header h1 a {
+    color: #333;  /* Same as your body text color */
+    text-decoration: none;
+    transition: color 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+header h1 a:hover {
+    color: #0070f3;  /* Your existing accent blue color */
+}
+
+/* This ensures the title maintains proper heading styles */
+header h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
 }

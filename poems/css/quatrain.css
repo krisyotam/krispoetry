@@ -1,0 +1,24 @@
+/* Quatrain Specific Styles */
+.poem-content {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    text-align: left;
+    font-family: "Times New Roman", serif;
+}
+
+.poem-meta {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.poem-content p {
+    margin-bottom: 1.5rem; /* Space between lines for clarity */
+}
+
+.poem-content p:nth-child(odd) {
+    font-weight: bold; /* Bold odd lines to add emphasis */
+}
+
+.poem-content p:nth-child(even) {
+    color: #777; /* Slightly lighter gray for even lines */
+}

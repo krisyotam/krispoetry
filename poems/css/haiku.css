@@ -1,0 +1,27 @@
+/* Haiku Specific Styles */
+.poem-content {
+    font-size: 1.25rem; /* Slightly larger font size */
+    line-height: 1.75; /* Slightly tighter line height */
+    text-align: center; /* Center the text */
+}
+
+.poem-meta {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+/* Haiku Header */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 700;
+}
+
+h2 {
+    color: #666;
+    font-size: 1.25rem;
+}
+
+.poem-content p {
+    margin-bottom: 2rem; /* Space between stanzas */
+}

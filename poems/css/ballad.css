@@ -1,0 +1,28 @@
+/* Ballad Specific Styles */
+.poem-content {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    text-align: left; /* Align text left for a traditional ballad feel */
+}
+
+.poem-meta {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+/* Ballad Header */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 700;
+}
+
+h2 {
+    color: #666;
+    font-size: 1.25rem;
+}
+
+.poem-content p {
+    margin-bottom: 1.5rem;
+    font-style: italic; /* Italics for lyrical style */
+}

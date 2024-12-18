@@ -121,3 +121,28 @@ nav a:hover {
 .poem-meta a:hover {
     color: #444; /* Darker color on hover */
 }
+
+/* Back Button Styling */
+.back-button {
+    position: fixed; /* Fixed to the bottom left */
+    bottom: 2rem; /* Distance from the bottom */
+    left: 2rem; /* Distance from the left */
+    padding: 0.5rem 1rem; /* Small padding for a subtle button */
+    background-color: transparent; /* No background to keep it subtle */
+    color: #0070f3; /* Blue text for the link */
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+    transition: color 0.3s, opacity 0.3s;
+    opacity: 0.7; /* Slight transparency for a minimalist feel */
+}
+
+.back-button:hover {
+    color: #005bb5; /* Darker blue on hover */
+    opacity: 1; /* Fully opaque on hover */
+}
+
+.back-button:focus {
+    outline: none; /* Remove focus outline */
+}

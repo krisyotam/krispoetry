@@ -1,0 +1,32 @@
+/* Free Verse Specific Styles */
+.poem-content {
+    font-size: 1.25rem; /* Standard font size */
+    line-height: 1.75; /* Slightly taller line height for better readability */
+    text-align: left; /* Left-aligned text for a more casual style */
+}
+
+.poem-meta {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+/* Free Verse Header */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 700;
+}
+
+h2 {
+    color: #666;
+    font-size: 1.25rem;
+}
+
+.poem-content p {
+    margin-bottom: 1.25rem;
+}
+
+/* Optional: Adding some padding to stanza breaks for a free-flowing look */
+.poem-content p + p {
+    padding-top: 1rem;
+}

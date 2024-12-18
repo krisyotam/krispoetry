@@ -1,0 +1,128 @@
+/* About Page Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    max-width: 42rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.tagline {
+    color: #666;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* About Flaps */
+.about-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Individual Flap */
+.about-flap {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Flap heading */
+.about-flap h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Flap hover effect */
+.about-flap h2:hover {
+    color: #333;
+}
+
+/* Initially hide the content inside the flap */
+.about-flap-content {
+    display: none;
+    text-align: left; /* Align content to the left */
+}
+
+/* When expanded, show the content */
+.about-flap.expanded .about-flap-content {
+    display: block;
+}
+
+/* Bento Box for Donations */
+.donations-section {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.donations-box {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donations-box .crypto-addresses {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.donations-box .crypto-address {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Contact Me Section Links */
+.about-flap-content ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; /* Align links to the left */
+}
+
+.about-flap-content ul li {
+    margin: 10px 0;
+}
+
+.about-flap-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.about-flap-content a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Optional: Style for the timeline list */
+.timeline {
+    list-style-type: none; /* Remove default list styling */
+    padding-left: 0; /* Remove padding */
+    text-align: left; /* Ensure text is aligned to the left */
+}
+
+.timeline li {
+    font-size: 1rem; /* Set the font size */
+    margin-bottom: 10px; /* Space between timeline items */
+    line-height: 1.6; /* Adjust line height for readability */
+}
+
+.timeline strong {
+    font-weight: bold; /* Make years bold */
+}

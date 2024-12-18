@@ -1,0 +1,34 @@
+/* Limerick Specific Styles */
+.poem-content {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-align: center; /* Limericks are often playful and work well with centered text */
+    font-style: italic; /* Italics for a light-hearted tone */
+}
+
+.poem-meta {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+/* Limerick Header */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 700;
+}
+
+h2 {
+    color: #666;
+    font-size: 1.25rem;
+}
+
+/* Stanza spacing */
+.poem-content p {
+    margin-bottom: 1.5rem;
+}
+
+/* Emphasize rhyme scheme visually */
+.poem-content p:nth-child(odd) {
+    color: #555; /* Lighter color for odd lines for a visual cue */
+}

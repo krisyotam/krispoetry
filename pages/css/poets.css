@@ -1,0 +1,119 @@
+/* Poets Page Specific Styles */
+
+/* Body */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    max-width: 100%; /* Allow full-width layout */
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Poets Section */
+section.poets {
+    margin-bottom: 2rem;
+}
+
+/* Poet Category Title (Clickable Flap) */
+.category-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.category-title.open {
+    background-color: #e0e0e0;
+}
+
+/* Category Content (Initially Hidden, Animate with Max-Height) */
+.category-content {
+    max-height: 0; /* Hidden state */
+    overflow: hidden; /* Prevent content overflow */
+    transition: max-height 0.3s ease, padding 0.3s ease; /* Smooth transition */
+    padding: 0; /* Remove padding when hidden */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 1rem;
+}
+
+/* Open State for Category Content */
+.category-content.open {
+    max-height: 100rem; /* Arbitrary high value to reveal content */
+    padding: 1rem 0; /* Restore padding */
+}
+
+/* Poet Block */
+.poet {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.poet:hover {
+    background-color: #eaeaea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.poet h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.poet-description {
+    font-size: 0.875rem;
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+.poet-meta a {
+    font-size: 0.875rem;
+    color: #0070f3;
+    text-decoration: none;
+}
+
+.poet-meta a:hover {
+    color: #005bb5;
+}
+
+/* Featured Poem Section */
+.featured-poem {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.featured-poem h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.featured-poem .poem-content {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 1rem;
+}
+

@@ -1,0 +1,56 @@
+{
+    "professionals": [
+        {
+            "name": "Edgar Allan Poe",
+            "description": "The master of macabre and melancholic poetry, known for works like 'The Raven' and 'Annabel Lee.'",
+            "link": "https://www.poetryfoundation.org/poets/edgar-allan-poe"
+        },
+        {
+            "name": "Emily Dickinson",
+            "description": "A reclusive genius known for her profound and unconventional poetry exploring themes of death, immortality, and nature.",
+            "link": "https://www.poetryfoundation.org/poets/emily-dickinson"
+        },
+        {
+            "name": "Sylvia Plath",
+            "description": "Renowned for her deeply confessional poetry that examines themes of identity, depression, and resilience.",
+            "link": "https://www.poetryfoundation.org/poets/sylvia-plath"
+        },
+        {
+            "name": "T.S. Eliot",
+            "description": "A modernist poet whose works like 'The Waste Land' reshaped English poetry with rich symbolism and themes of alienation.",
+            "link": "https://www.poetryfoundation.org/poets/ts-eliot"
+        },
+        {
+            "name": "Walt Whitman",
+            "description": "A pioneer of free verse, celebrated for his groundbreaking work 'Leaves of Grass.'",
+            "link": "https://www.poetryfoundation.org/poets/walt-whitman"
+        },
+        {
+            "name": "John Keats",
+            "description": "A Romantic poet known for his odes and the vivid imagery of his meditations on beauty and mortality.",
+            "link": "https://www.poetryfoundation.org/poets/john-keats"
+        }
+    ],
+    "hobbyists": [
+        {
+            "name": "John Doe",
+            "description": "Exploring themes of solitude and wonder through accessible language and heartfelt imagery.",
+            "link": "https://allpoetry.com/JohnDoe"
+        },
+        {
+            "name": "Jane Doe",
+            "description": "A new poet experimenting with themes of love and modern existentialism through short forms.",
+            "link": "https://allpoetry.com/JaneDoe"
+        },
+        {
+            "name": "Sally Doe",
+            "description": "Crafting vivid stories with a focus on themes of family, nostalgia, and hope.",
+            "link": "https://allpoetry.com/SallyDoe"
+        },
+        {
+            "name": "Jack Doe",
+            "description": "Blending humor and poignancy in verses that reflect on everyday life and personal growth.",
+            "link": "https://allpoetry.com/JackDoe"
+        }
+    ]
+}
